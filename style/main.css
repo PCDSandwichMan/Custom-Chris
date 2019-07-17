@@ -1,0 +1,31 @@
+header {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000001f), to(#000000a9)), url(../images/auto-show-automobiles-automotives-248687.jpg) no-repeat center center fixed;
+  background: linear-gradient(#0000001f, #000000a9), url(../images/auto-show-automobiles-automotives-248687.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+#nav-logo {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.nav-item {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0 .5rem .5rem .5rem;
+  font-weight: 300;
+}
+
+.nav-icons {
+  display: inline-block;
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
