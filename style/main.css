@@ -8,6 +8,9 @@ header {
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 #nav-logo {
@@ -95,12 +98,29 @@ header {
           transform: translate(-20%, -70%);
 }
 
+#collage-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 #collage-1 h3 {
   text-align: center;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 3.5rem;
-  text-decoration: underline;
+  color: #000;
+  padding: 1rem;
   margin: 3vw 0 1.5vw;
+}
+
+#collage-1 h3 span {
+  border-bottom: 3px solid #000;
+  padding: 0 1rem;
 }
 
 .cards-container {
@@ -234,7 +254,10 @@ header {
 }
 
 #discover {
-  text-align: center;
+  width: 12vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 html {
@@ -264,7 +287,7 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 ol,
@@ -278,9 +301,10 @@ img {
 }
 
 .btn {
-  background-color: #272727;
+  background-color: #080808;
   color: #4BA86B;
   border: none;
   outline: none;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
