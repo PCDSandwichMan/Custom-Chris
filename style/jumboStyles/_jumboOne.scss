@@ -1,0 +1,33 @@
+@import '../globalHelpers/placeholders';
+
+#jumbo-one-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#jumbo-one {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#jumbo-one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+#jumbo_one_text {
+    @extend %headline;
+    h3 {
+        color: #ffffff;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+

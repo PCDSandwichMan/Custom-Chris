@@ -1,7 +1,7 @@
 header {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0000001f), to(#000000a9)), url(../images/auto-show-automobiles-automotives-248687.jpg) no-repeat center center fixed;
-  background: linear-gradient(#0000001f, #000000a9), url(../images/auto-show-automobiles-automotives-248687.jpg) no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000000c), to(#00000067)), url(../images/heroCar.jpg) no-repeat center center;
+  background: linear-gradient(#0000000c, #00000067), url(../images/heroCar.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -20,12 +20,267 @@ header {
   text-transform: uppercase;
   font-size: 1.1rem;
   text-decoration: none;
-  padding: 0 .5rem .5rem .5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
   font-weight: 300;
 }
 
-.nav-icons {
-  display: inline-block;
+#nav-icons {
   list-style: none;
+  margin-left: auto;
+}
+
+#nav-icons li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+#jumbo_one_text {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  -webkit-transform: translate(-20%, -70%);
+          transform: translate(-20%, -70%);
+}
+
+#jumbo-one-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+}
+
+#jumbo-one {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#jumbo-one img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+#jumbo_one_text h3 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#jumbo_one_text {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  -webkit-transform: translate(-20%, -70%);
+          transform: translate(-20%, -70%);
+}
+
+#jumbo_one_text {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  -webkit-transform: translate(-20%, -70%);
+          transform: translate(-20%, -70%);
+}
+
+#collage-1 h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  margin: 3vw 0 1.5vw;
+}
+
+.cards-container {
+  margin: 0vw 10vw 2vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px 10px;
+  -ms-grid-rows: (1fr)[2];
+  -ms-grid-columns: (1fr)[3];
+      grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+}
+
+.collage-image-wide {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  background-image: url("../../images/collage-S1-I1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.collage-image-wide::before {
+  content: 'Self designed racing stripes';
+  padding-top: 8vw;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000e8));
+  background: linear-gradient(#00000000, #000000e8);
+}
+
+.collage-image-long {
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  background-image: url(../../images/collage-S1-I2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.collage-image-long::before {
+  content: 'Barely legal tint';
+  padding-top: 21vw;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000ef));
+  background: linear-gradient(#00000000, #000000ef);
+}
+
+.collage-image-reg-1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-image: url(../../images/collage-S1-I3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.collage-image-reg-1::before {
+  content: 'Custom gloss';
+  padding-top: 8vw;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000e8));
+  background: linear-gradient(#00000000, #000000e8);
+}
+
+.collage-image-reg-2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-image: url(../../images/collage-S1-I4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.collage-image-reg-2::before {
+  content: 'Body upgrades';
+  padding-top: 8vw;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000e8));
+  background: linear-gradient(#00000000, #000000e8);
+}
+
+#discover {
+  text-align: center;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  height: 500vh;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  background-color: #272727;
+  color: #4BA86B;
+  border: none;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

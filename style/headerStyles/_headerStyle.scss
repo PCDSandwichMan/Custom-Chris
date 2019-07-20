@@ -1,0 +1,38 @@
+header {
+    // border: 2px red solid;
+    height: 100vh;
+    background: linear-gradient(#0000000c, #00000067),
+      url(../images/heroCar.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  
+  #nav-logo {
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  .nav-item {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    font-weight: 300;
+  }
+  
+  #nav-icons {
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  #nav-icons li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }

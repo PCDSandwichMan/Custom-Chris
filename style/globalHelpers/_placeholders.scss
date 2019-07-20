@@ -1,0 +1,13 @@
+%headline {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-20%, -70%);
+}
+
+%flexCenter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,qCAAqC,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM;EACzE,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "jumboOne.scss"
+    ],
+    "names": [],
+    "file": "jumboOne.css"
+}
