@@ -90,14 +90,6 @@ header {
           transform: translate(-20%, -70%);
 }
 
-#jumbo_one_text {
-  position: absolute;
-  top: 70%;
-  left: 10%;
-  -webkit-transform: translate(-20%, -70%);
-          transform: translate(-20%, -70%);
-}
-
 #collage-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -322,21 +314,76 @@ header {
 
 .collage2-image-wide .card-img {
   height: 100%;
+  width: 200vw;
   overflow: hidden;
 }
 
 .collage2-image-wide .card-img img {
   height: 100%;
+  width: 100%;
 }
 
 .collage2-image-wide #card-text {
   background-color: #efefea;
-  padding: 2vw;
+  padding: 2vw 3vw;
+}
+
+.collage2-image-wide #card-text h3 {
+  font-size: 1.8rem;
+  text-align: start;
+  padding: 0;
+  margin: 2vw 0;
+  color: #4BA86B;
+  font-weight: 400;
 }
 
 .collage2-image-wide #card-text h4 {
   margin-bottom: 1vw;
   font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.collage2-image-wide #card-text h6 {
+  line-height: 25px;
+  margin-bottom: 1.5vw;
+}
+
+.collage2-image-wide #card-text h5 {
+  text-transform: uppercase;
+}
+
+.collage2-image-wide #card-text h5 a {
+  color: #4BA86B;
+  text-decoration: underline;
+}
+
+.collage2-image-wide #card-text h5 a:hover {
+  text-decoration: none;
+}
+
+.txt-ctnr {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5vw;
+}
+
+.txt-ctnr .ttl {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: .3vw;
+  font-weight: 600;
+}
+
+.txt-ctnr .description {
+  color: #4BA86B;
 }
 
 .collage2-image-long {
@@ -349,6 +396,18 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.collage2-image-long::before {
+  content: '';
+  padding-top: 8vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000002), to(#000000e3));
+  background: linear-gradient(#00000002, #000000e3);
 }
 
 .collage2-image-reg-1 {
@@ -364,6 +423,18 @@ header {
   position: relative;
 }
 
+.collage2-image-reg-1::before {
+  content: '';
+  padding-top: 8vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000002), to(#000000e1));
+  background: linear-gradient(#00000002, #000000e1);
+}
+
 .collage2-image-reg-2 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -375,6 +446,18 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.collage2-image-reg-2::before {
+  content: '';
+  padding-top: 8vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000002), to(#000000e1));
+  background: linear-gradient(#00000002, #000000e1);
 }
 
 .collage2-image-reg-5 {
@@ -390,6 +473,18 @@ header {
   position: relative;
 }
 
+.collage2-image-reg-5::before {
+  content: '';
+  padding-top: 8vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000002), to(#000000e1));
+  background: linear-gradient(#00000002, #000000e1);
+}
+
 .collage2-image-reg-6 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -401,6 +496,18 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.collage2-image-reg-6::before {
+  content: '';
+  padding-top: 8vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000002), to(#000000e1));
+  background: linear-gradient(#00000002, #000000e1);
 }
 
 footer {
@@ -469,6 +576,10 @@ footer {
   color: white;
   font-weight: lighter;
   font-size: 0.8rem;
+}
+
+.footer-selections-middle li {
+  text-transform: capitalize;
 }
 
 .footer-selections-bottom {
