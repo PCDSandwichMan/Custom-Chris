@@ -1,11 +1,11 @@
 @import './headerStyles/headerStyle';
 @import './jumboStyles/jumboOne.scss';
 @import './collageStyles/collageStyle.scss';
+@import './footerStyles/footerStyle.scss';
 
 html {
   box-sizing: border-box;
   font-size: 16px;
-  height: 500vh; // for testing
 }
 
 
@@ -47,4 +47,10 @@ img {
   border: none;
   outline: none;
   text-transform: uppercase;
+  z-index: 9;
+}
+
+#clg-btn {
+  margin-top: 4vw;
+  width: 10vw;
 }
