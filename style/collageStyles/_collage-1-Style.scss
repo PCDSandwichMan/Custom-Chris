@@ -1,6 +1,5 @@
 @import '../globalHelpers/placeholders';
 
-
 // ! Title
 #collage-1 {
   display: flex;
@@ -19,6 +18,9 @@
       border-bottom: 3px solid #000;
       padding: 0 1rem;
     }
+  }
+  .btn {
+    width: 30%;
   }
 }
 
@@ -127,3 +129,169 @@
   }
 }
 
+// - Media Queries
+@media only screen and (max-width: 1030px) and (min-width: 781px) {
+  // ! Title
+  #collage-1 {
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 661px) {
+  // ! Title
+  #collage-1 {
+    h3 {
+      font-size: 2.3rem;
+    }
+  }
+
+  // ! Collage box
+  .collage-image-wide {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  // - tall image
+  .collage-image-long {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  .collage-image-reg-1 {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  .collage-image-reg-2 {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 660px) and (min-width: 572px) {
+  // ! Title
+  #collage-1 {
+    h3 {
+      font-size: 1.8rem;
+    }
+    .btn {
+      font-size: 0.8rem;
+      width: 25%;
+    }
+  }
+
+  // ! Collage box
+  .collage-image-wide {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  // - tall image
+  .collage-image-long {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  .collage-image-reg-1 {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+
+  .collage-image-reg-2 {
+    &::before {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 571px) and (min-width: 458px) {
+  // ! Title
+  #collage-1 {
+    h3 {
+      font-size: 1.6rem;
+      padding: .5rem;
+    }
+    .btn {
+      font-size: .8rem;
+      width: 25%;
+    }
+  }
+
+  // ! Collage box
+  .collage-image-wide {
+    &::before {
+      font-size: .8rem;
+    }
+  }
+
+  // - tall image
+  .collage-image-long {
+    &::before {
+      font-size: .8rem;
+    }
+  }
+
+  .collage-image-reg-1 {
+    &::before {
+      font-size: .8rem;
+    }
+  }
+
+  .collage-image-reg-2 {
+    &::before {
+      font-size: .8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 457px) and (min-width: 0px) {
+  // ! Title
+  #collage-1 {
+    h3 {
+      font-size: 1.6rem;
+      padding: .5rem;
+      span {
+        padding: 0rem;
+      }
+    }
+    .btn {
+      font-size: .7rem;
+      width: 30%;
+    }
+  }
+
+  // ! Collage box
+  .collage-image-wide {
+    &::before {
+      font-size: .6rem;
+    }
+  }
+
+  // - tall image
+  .collage-image-long {
+    &::before {
+      font-size: .6rem;
+    }
+  }
+
+  .collage-image-reg-1 {
+    &::before {
+      font-size: .6rem;
+    }
+  }
+
+  .collage-image-reg-2 {
+    &::before {
+      font-size: .6rem;
+    }
+  }
+}

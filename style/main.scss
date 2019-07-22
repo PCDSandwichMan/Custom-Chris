@@ -1,12 +1,11 @@
 @import './headerStyles/headerStyle';
 @import './jumboStyles/jumboOne.scss';
-@import './collageStyles/collage-1-Style.scss';
-@import './collageStyles/collage-2-Style.scss';
+@import './collageStyles/collage-1-Style';
+@import './collageStyles/collage-2-Style';
 @import './footerStyles/footerStyle.scss';
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 
