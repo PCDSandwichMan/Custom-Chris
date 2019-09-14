@@ -1,7 +1,7 @@
 footer {
   background: linear-gradient(#0000002f, #00000093),
-    url(../../images/footer-bg-img.jpg) no-repeat center center;
-  width: 100%;
+    url(/images/footer-bg-img.jpg) no-repeat center center;
+  width: 100vw;
   margin-top: 8vw;
 }
 
@@ -13,7 +13,7 @@ footer {
 .footer-selections-top {
   text-align: center;
   padding: 1vw 1vw 2vw;
-  width: 60%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -25,7 +25,6 @@ footer {
       font-weight: 100;
     }
   }
-  
 }
 
 .footer-selections-middle {
@@ -38,7 +37,7 @@ footer {
     font-weight: 500;
     padding-bottom: 6px;
     border-bottom: 2px solid white;
-    width: 120%;
+    width: 100%;
     margin-bottom: 0.8vw;
     font-size: 1.1rem;
   }
@@ -53,25 +52,83 @@ footer {
 }
 
 .footer-selections-bottom {
-    margin: 0 auto;
-    h3 {
-        color: white;
-        text-align: center;
-        font-size: .8rem;
-        font-weight: 100;
-        margin: 2vw;
+  margin: 0 auto;
+  h3 {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 2vw;
+  }
+  ul {
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 1vw;
+    i {
+      color: white;
+      font-weight: 100;
+      font-size: 1.7rem;
+      text-shadow: 1px 1px 2px #222;
+      transition: 100ms all ease-in-out;
+      &:hover {
+        color: $textGreen;
+      }
     }
-    ul {
-        text-align: center;
+  }
+}
+
+@media only screen and (max-device-width: 808px) {
+  .footer-selections-top {
+    li {
+      a {
+        font-weight: 100;
+        text-shadow: 1px 1px 2px #222;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .footer-selections-middle {
+    padding: 1vw 1vw 3vw;
+    h5 {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 650px) {
+  .footer-selections-top {
+    text-align: center;
+    padding: 1vw 1vw 5vw;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-selections-middle {
+    display: none;
+  }
+
+  .footer-selections-bottom {
+    h3 {
+      text-shadow: 1px 1px 2px #222;
     }
     li {
-        display: inline-block;
-        text-transform: uppercase;
-        margin-right: 1vw;
-        i {
-          color: white;
-          font-weight: 100;
-          font-size: 1.5rem;
+      text-shadow: 1px 1px 2px #222;
+      margin: 0 3.5vw;
+      i {
+        text-shadow: 1px 1px 2px #222;
+        transition: 300ms solid ease-in-out;
+        &:hover {
+          color: $textGreen;
         }
       }
+    }
+  }
 }

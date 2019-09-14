@@ -11,7 +11,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/main.scss" />
     <title>Chris's Customs</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       <!-- - Lamborghini hero gif and fixed nav -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a c class="collage-image" lass="navbar-brand" href="#">
-          <img src="./images/navLogo.jpg" id="nav-logo" />
+          <img src="images/navLogo.jpg" id="nav-logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -65,7 +65,7 @@
     <!-- - First Custom Jumbo -->
     <section id="jumbo-one-container">
       <div class="collage-image" id="jumbo-one">
-        <img src="./images/jumbo-one-bg.jpg" alt="" />
+        <img src="images/jumbo-one-bg.jpg" alt="" />
         <div id="jumbo_one_text">
           <h3>Showcased Designs</h3>
           <button
@@ -109,9 +109,9 @@
         <div class="cards-container2">
           <div class="collage2-image-wide">
             <div class="card-img">
-              <img src="./images/collage-S2-I1.jpg" />
+              <img src="images/collage-S2-I1.jpg" />
             </div>
-            <div id="card-text">
+            <div id="card-text" class="newsCard-text">
               <h3><strong>Business Hours:</strong> 7am - 8pm</h3>
               <h4>Try before you buy?</h4>
               <h6>
@@ -181,7 +181,7 @@
         <!-- - Middle Section Footer -->
         <div class="footer-selections-middle">
           <div class="footer-section">
-            <h5>Designs</h5>
+            <h5>Designs <span style="display: none" class="footer-section__dropdown-arrow">></span></h5>
             <ul>
               <li><a href="#">Paint Jobs</a></li>
               <li><a href="#">Custom Body</a></li>
@@ -192,7 +192,7 @@
             </ul>
           </div>
           <div class="footer-section">
-            <h5>Product Service</h5>
+            <h5>Service <span style="display: none" class="footer-section__dropdown-arrow">></span></h5>
             <ul>
               <li><a href="#">1.555.123.4567</a></li>
               <li><a href="#">Contact Us</a></li>
@@ -203,7 +203,7 @@
             </ul>
           </div>
           <div class="footer-section">
-            <h5>Popular Items</h5>
+            <h5>Popular Items <span style="display: none" class="footer-section__dropdown-arrow">></span></h5>
             <ul>
               <li><a href="#">Hankook Ventus Z214 Tires</a></li>
               <li><a href="#">Hardened Carbon Fiber Shell</a></li>
@@ -216,7 +216,7 @@
             </ul>
           </div>
           <div class="footer-section">
-            <h5>Experience</h5>
+            <h5>Experience <span style="display: none" class="footer-section__dropdown-arrow">></span></h5>
             <ul>
               <li><a href="#">News</a></li>
               <li><a href="#">Events</a></li>

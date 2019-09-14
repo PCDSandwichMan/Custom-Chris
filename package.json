@@ -1,0 +1,25 @@
+{
+  "name": "custom-chris",
+  "version": "1.0.0",
+  "description": "CSS Grid practice run",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCDSandwichMan/Custom-Chris.git"
+  },
+  "author": "PCDSandwichMan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PCDSandwichMan/Custom-Chris/issues"
+  },
+  "homepage": "https://github.com/PCDSandwichMan/Custom-Chris#readme",
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "parcel-plugin-imagemin": "^3.0.0",
+    "sass": "^1.22.9"
+  }
+}
